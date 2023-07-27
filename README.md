@@ -12,6 +12,8 @@ GC_PROXY="https://ghproxy.com/"
 GC_URL="https://github.com/YMC-GitHub/app-ver-out"
 GC_URL="${GC_PROXY}${GC_URL}"
 git clone -b main "$GC_URL"
+
+# git clone -b v1.0.0 "$GC_URL"
 ```
 
 
