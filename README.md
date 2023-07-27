@@ -30,8 +30,19 @@ docker -v,zero_app_ver_reg_3,docker
 
 ```bash
 ./index.sh ./charts/config.sample.md
+./index.sh  ./charts/config.node.base.md
+./index.sh  ./charts/config.k8s.mircok8s.md
+
 ```
 
+
+```bash
+GC_PROXY="https://ghproxy.com/"
+GC_REPO_URL_RAW=https://raw.githubusercontent.com/ymc-github/app-ver-out
+url=${GC_PROXY}${GC_REPO_URL_RAW}/main/index.sh
+echo $url
+# curl -sfL $url | sh
+```
 
 ## Author
 
